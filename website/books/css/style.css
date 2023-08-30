@@ -1,0 +1,30 @@
+/* Main CSS for Books Page */
+
+#bookList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#bookList li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+#bookList li:last-child {
+    border-bottom: none;
+}
+
+#bookList .book-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#bookList .book-author {
+    font-size: 20px;
+    color: #666;
+}
+
+#bookList .book-description {
+    font-size: 16px;
+}

@@ -1,0 +1,15 @@
+As an AI, I'm unable to create directories or files. However, I can guide you on how to do it. For the file `website/images/books`, it's not a file but a directory where you should store all the images related to the books that will be displayed on the website. 
+
+You can create this directory using the following command in your terminal:
+
+```bash
+mkdir -p website/images/books
+```
+
+Then, you can add images to this directory by simply copying them into it. For example, if you have an image named `book1.jpg` in your current directory, you can move it to the `books` directory like this:
+
+```bash
+mv book1.jpg website/images/books
+```
+
+Remember, this directory should contain all the images of the books that you want to display on the "Books" page of your website.

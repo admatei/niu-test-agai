@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authors</title>
+    <link rel="stylesheet" href="../css/style.css" id="mainStyle">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../books/index.html">Books</a></li>
+                <li><a href="#">Authors</a></li>
+                <li><a href="../imprints/index.html">Imprints</a></li>
+                <li><a href="../about/index.html">About</a></li>
+                <li><a href="../contact/index.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="authorList"></section>
+    </main>
+    <footer>
+        <p>© 2022 Publishing House</p>
+    </footer>
+    <script src="../js/main.js" id="mainScript"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            loadData('authors', 'authorDataLoaded');
+        });
+    </script>
+</body>
+</html>
